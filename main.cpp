@@ -1,6 +1,7 @@
 #include "asdfx.h"
 #include "constants.h"
 #include "Print.h"
+#include "Print.cpp"
 
 template <typename T> void FillRand(T arr[], const int n);
 void FillRand(double arr[], const int n);
