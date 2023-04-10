@@ -17,7 +17,7 @@ void FillRand(double arr[], const int n)
 		arr[i] /= 10;
 	}
 }
-void FillRand(int arr[ROWS][COLS], const int ROWS, const int COLS)
+template <typename T> void FillRand(T arr[ROWS][COLS], const int ROWS, const int COLS)
 {
 	for (int i = 0; i < ROWS; i++)
 	{
