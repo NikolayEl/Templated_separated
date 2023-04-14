@@ -144,14 +144,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Fillrand.cpp" />
+    <ClCompile Include="FillRandOverloads.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mathematical.cpp" />
     <ClCompile Include="Print.cpp" />
+    <ClCompile Include="Search.cpp" />
+    <ClCompile Include="Shift.cpp" />
+    <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asdfx.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="Fillrand.h" />
+    <ClInclude Include="mathematical.h" />
     <ClInclude Include="Print.h" />
+    <ClInclude Include="Search.h" />
+    <ClInclude Include="Shift.h" />
+    <ClInclude Include="Sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
